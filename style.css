@@ -4,6 +4,9 @@
     box-sizing: border-box;
     color: #FFF;
 }
+body{
+    overflow-x: hidden;
+}
 #crsr{
     height: 2.3vw;
     width: 2.3vw;
@@ -151,10 +154,141 @@
     font-size: 7.2vw;
     line-height: 7vw;
     letter-spacing: 0.2vw;
+    border-bottom: 0.5vw solid #fff;
+    padding-bottom: 0.8vw;
 }
-
 .hero h2:hover{
     -webkit-text-stroke: 1px #fff;
     color: transparent;
     font-weight: 300;
+    border-bottom: 0.5vw solid #151515;
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+    padding-top: 16vh;
+    position: relative;
+    background-color: #151515;
+}
+
+.video_box{
+    height: 70vh;
+    width: 70vw;
+    position: relative;
+    left: 28%;
+    background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
+}
+.video_box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+
+}
+.video_box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+#video_crsr{
+    height: 10vw;
+    width: 10vw;
+    background-color: #FFA63D;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video_crsr i{
+    font-size: 2.5vw;
+}
+.section3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #151515;
+}
+.section4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #151515;
+    padding-top: 5vh;
+}
+.section4_content{
+    width: 72vw;
+    position: relative;
+    margin-left: 28%;
+    font-family: "Plain Light";
+
+}
+.section4_content h1{
+    font-size: 7vw;
+}
+.underline{
+    height: 1px;
+    width: 90%;
+    background-color: #FFFFFF;
+    margin: 5vw 0 3.8vw 0;
+}
+.section4_content>p{
+    font-size: 2.3vw;
+    margin-bottom: 4vw;
+}
+.section4_flex{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.section4_flex img{
+    width: 45%;
+}
+.section4_flex p{
+    font-size: 1vw;
+    line-height: 1.5vw;
+    margin-left: 2vw;
+}
+.blue_box{
+    background-color: #3F7DF4;
+    width: 33vw;
+    padding: 3.9vw 3vw;
+    position: relative;
+    margin-top: -28vh;
+    margin-left: 23vw;
+}
+.blue_box_elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 2.3vw 0;
+    /* background-color: red; */
+    border-bottom: 1px solid #fff;
+}
+.blue_box_elem h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+
+
+}
+.blue_box_elem p{
+    width: 35%;
+    font-size: 0.9vw;
+    text-align: left;
+}
+.underline1{
+    height: 1px;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 10vw;
+    /* margin-bottom: 2vw; */
+}
+
+.section5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #151515;
 }
